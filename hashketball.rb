@@ -55,7 +55,7 @@ def game_hash
           :slam_dunks => 1
         }
       }
-    },
+    ],
     :away => {
       :team_name => "Charlotte Hornets",
       :colors => ["Turquoise", "Purple"],
@@ -111,6 +111,6 @@ def game_hash
           :slam_dunks => 12
         }
       }
-    }
+    ]
   }
 end
