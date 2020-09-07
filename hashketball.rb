@@ -3,7 +3,7 @@ def game_hash
     :home => {
       :team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
-      :players => {
+      :players => [{
         "Alan Anderson" => {
           :number => 0,
           :shoe => 16,
@@ -38,7 +38,7 @@ def game_hash
           :number => 1,
           :shoe => 19,
           :points => 26,
-          :rebounds => 12,
+          :rebounds => 11,
           :assists => 6,
           :steals => 3,
           :blocks => 8,
@@ -54,12 +54,12 @@ def game_hash
           :blocks => 11,
           :slam_dunks => 1
         }
-      }
+      ]
     },
     :away => {
       :team_name => "Charlotte Hornets",
       :colors => ["Turquoise", "Purple"],
-      :players => {
+      :players => [{
         "Jeff Adrien" => {
           :number => 4,
           :shoe => 18,
@@ -76,7 +76,7 @@ def game_hash
           :points => 12,
           :rebounds => 4,
           :assists => 7,
-          :steals => 7,
+          :steals => 22,
           :blocks => 15,
           :slam_dunks => 10
         },
@@ -100,7 +100,7 @@ def game_hash
           :blocks => 1,
           :slam_dunks => 0
         },
-        "Brendan Haywood" => {
+        "Kemba Walker" => {
           :number => 33,
           :shoe => 15,
           :points => 6,
@@ -110,7 +110,7 @@ def game_hash
           :blocks => 5,
           :slam_dunks => 12
         }
-      }
+      ]
     }
   }
 end
